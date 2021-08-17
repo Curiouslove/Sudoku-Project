@@ -4,3 +4,9 @@
 *.iws
 *.ipr
 .idea/
+ .idea/misc.xml
+ .idea/modules.xml
+ .idea/runConfigurations.xml
+ .idea/vcs.xml
+ Sudoku.iml
+
