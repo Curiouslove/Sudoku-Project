@@ -6,7 +6,7 @@ public class GenerateNumber {
     public static int choice(ArrayList<Integer>  numbers){
         SecureRandom random = new SecureRandom();
 
-        int number = random.nextInt(numbers.size()-1);
+        int number = random.nextInt(numbers.size() - 1);
 
         return number;
     }
