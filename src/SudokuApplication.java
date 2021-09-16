@@ -1,9 +1,12 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class SudokuApplication {
     public static void main(String[] args) {
 
-        ArrayList<Integer> numbers = NineNumbers.getNumbers();
+//        ArrayList<Integer> numbers = NineNumbers.getNumbers();
+        ArrayList<Integer> numbers = new ArrayList<>(List.of(1));
+        System.out.println(numbers.size());
         System.out.print("Our numbers are : ");
         System.out.println(numbers);
 
@@ -18,6 +21,7 @@ public class SudokuApplication {
         ArrayList<Integer> newList = GenerateNumber.delete(number, numbers);
         System.out.print("Our new numbers are : ");
         System.out.println(numbers);
+        System.out.println(numbers.size());
 
     }
 }
